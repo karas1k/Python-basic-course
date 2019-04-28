@@ -61,8 +61,6 @@ print(f"\nИскомые символы:\n{symbols}")
 # в вышезаполненном файле.
 
 print("")
-import random
-
 import re
 import random
 
