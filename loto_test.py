@@ -18,7 +18,8 @@ def card_loto():
 
         mas_list.extend(mas[i])
 
-    print(mas_list)
+    print(f'Карточка игрока:\n{mas_list[0:5]}\n'
+          f'{mas_list[5:10]}\n{mas_list[10::]}\n')
     return(mas_list)
 
 player = card_loto()
